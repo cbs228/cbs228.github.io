@@ -1,0 +1,57 @@
+body {
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Take full size */
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+
+  font-size: 1.3rem;
+  line-height: 1.45em;
+  font-family: "Open Sans", sans-serif;
+  background: hsl(226, 23%, 11%);
+  color: #bcbdd0;
+}
+
+a {
+  color: #2b79a2;
+}
+
+.contentbox {
+  display: flex;
+  flex-direction: column;
+  max-width: 40em;
+  margin: 0.1em;
+}
+
+header {
+  display: flex;
+  height: 10em;
+  align-items: end;
+  background: #282d3f;
+  padding: 0.5em;
+}
+
+header h1 {
+  display: flex;
+}
+
+main {
+  /* take all available height */
+  flex: 1;
+  padding: 0.5em;
+}
+
+main li {
+  margin: 1.2em 0;
+}
+
+.IPA {
+  font-family: monospace;
+  font-size: 1.2em;
+}
